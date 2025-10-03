@@ -18,12 +18,12 @@ void DecimaltoBinary(int decimal)
 
 }
 
-
 void main()
 {
     int decimal;
-    printf("Enter a decimal number: ");
+    printf("\nEnter a decimal number: ");
     scanf("%d", &decimal);
+    printf("Decimal Number of %d: ", decimal);
 
     if (decimal == 0)
     {
@@ -34,3 +34,4 @@ void main()
     DecimaltoBinary(decimal);
     }
 }
+

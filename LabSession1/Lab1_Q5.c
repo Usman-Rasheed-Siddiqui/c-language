@@ -1,7 +1,6 @@
 
 #include <stdio.h>
 
-
 int Fibonacci(int number, int first, int second)
 {
     if (number == 0)
@@ -32,7 +31,7 @@ void main()
 {
     int number;
 
-    printf("Enter a number for fibonacci series: ");
+    printf("\nEnter a number for fibonacci series: ");
     scanf("%d", &number);
 
     if (number < 0)
@@ -45,10 +44,6 @@ void main()
         printf("Fibonacci series: 0");
 
     }
-    // else if (number == 1)
-    // {
-    //     printf("Fibonacci series: 1");
-    // }
 
     else
     {
@@ -58,3 +53,4 @@ void main()
     }
 
 }
+

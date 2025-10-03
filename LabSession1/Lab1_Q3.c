@@ -5,7 +5,7 @@ void main()
 {
     float height;
 
-    printf("Enter your height (in cm): ");
+    printf("\nEnter your height (in cm): ");
     scanf("%f", &height);
 
     if (height < 150)
@@ -21,3 +21,5 @@ void main()
         printf("Tall");
     }
 }
+
+

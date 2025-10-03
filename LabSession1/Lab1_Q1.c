@@ -2,12 +2,11 @@
 #include <stdio.h>
 
 void main()
-
 {
     int employee;
     float hours, amount, salary;
 
-    printf("Enter employee ID: ");
+    printf("\nEnter employee ID: ");
     scanf("%d", &employee);
 
     printf("Enter work hours: ");
@@ -19,5 +18,6 @@ void main()
     salary = hours * amount;
 
     printf("Employee ID: %d \nSalary: %.2f PKR", employee, salary);
-    
 }
+
+

@@ -5,7 +5,7 @@ void main()
 {   
     float height, width, perimeter, area;
 
-    printf("Enter height of rectangle: ");
+    printf("\nEnter height of rectangle: ");
     scanf("%f", &height);
 
     printf("Enter width of rectangle: ");
@@ -14,6 +14,8 @@ void main()
     perimeter = 2 * (height + width);
     area = height * width;
 
-    printf("\nPerimeter of Rectangle: %.2f units \nArea of Rectange: %.2f square units", perimeter, area);
-    
+    printf("\nPerimeter of Rectangle: %.2f units", perimeter);
+    printf("\nArea of Rectange: %.2f square units", area);    
 }
+
+

@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int range;
+    printf("Enter a range: ");
+    scanf("%d", &range);
+
+    printf("Odd Numbers:\n");
+    int sum = 0;
+    for (int i = 1; i <= range; i++ ){
+        if (i%2==1) {
+            printf("%d\n", i);
+            sum += i;
+        }
+    }
+    printf("Sum of the odd numbers: %d", sum);
+    return 0;
+}
+
+
+
