@@ -19,3 +19,6 @@ int main(){
     printf("\nAfter Swapping: ");
     printf("\na = %d \nb = %d", a, b);
 }
+
+
+

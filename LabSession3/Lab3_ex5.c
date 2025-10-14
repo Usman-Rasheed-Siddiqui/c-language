@@ -1,12 +1,14 @@
 
 #include <stdio.h>
 
-void addMatrices(int *mat1, int *mat2, int rows, int cols, int *result){
+void addMatrices(int *mat1, int *mat2, int rows,
+     int cols, int *result){
 
     
     for(int i=0; i<rows; i++){
         for (int j = 0; j < cols; j++){
-            *(result + i*cols + j) = *(mat1 + i*cols + j) + *(mat2 + i*cols + j);
+            *(result + i*cols + j) = *(mat1 + i*cols + j)
+             + *(mat2 + i*cols + j);
 
         }   
     }
@@ -30,7 +32,8 @@ int main(){
     int cols = sizeof((*mat1))/sizeof(**mat1);
     int result[3][3];
 
-    addMatrices((int *)mat1, (int *)mat2, rows, cols, (int *)result);
+    addMatrices((int *)mat1, (int *)mat2, rows,
+     cols, (int *)result);
 
     for(int i=0; i < 3; i++){
         for(int j=0; j<3; j++){
@@ -42,3 +45,4 @@ int main(){
     }
     return 0;
 }
+
