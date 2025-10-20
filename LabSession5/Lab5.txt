@@ -1,0 +1,2 @@
+This is a test sentence written to a file using C programming.
+This line was added later to demonstrate file appending in C.
