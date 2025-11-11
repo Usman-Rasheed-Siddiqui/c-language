@@ -26,7 +26,7 @@ int main(){
     if(fptr != NULL){
         char myString[100];
         while(fgets(myString, 100, fptr)){
-        printf("%s", myString);
+            printf("%s", myString);
         }
     }
     else{

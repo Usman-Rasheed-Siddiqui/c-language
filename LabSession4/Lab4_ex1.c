@@ -11,7 +11,7 @@ struct Contact {
 
 void addContact(struct Contact **contacts, int *count){
     *count += 1;
-    *contacts = (struct Contact *)realloc(*contacts, (*count) *sizeof(struct Contact));
+    *contacts = (struct Contact *)realloc(*contacts, (*count) * sizeof(struct Contact));
 
     if (*contacts == NULL){
         fprintf(stderr, "Memory Allocation failed");

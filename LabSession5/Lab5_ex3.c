@@ -125,7 +125,6 @@ void Display(){
     }
 
     char line[200];
-    int found = 0;
 
 
     printf("\n%-10s | %-25s | %-30s | %-5s\n", "ROLL NO.", "NAME", "DEPARTMENT", "CGPA");
